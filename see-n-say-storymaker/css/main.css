@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+html{
+    scroll-behavior: smooth;
+    background-color: #f4f4f4;
+}
+/* Changing the text size of different text elements */
+h1{
+    font-size: 3em;
+    text-decoration: underline;
+}
+h2{
+    font-size: 2em;
+  
+}
+p{
+    font-size: 25px;
+}
+/* Organizes the word containers */
+.container{
+    /* display:grid;
+    grid-template-columns: repeat(5,20%); */
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    text-align: center;
+}
+/* Centers the application title and adds some padding */
+header{
+    text-align: center;
+    padding-top: 20px;
+}
+/* NOUN1 CONTAINER */
+.noun1-container{
+    background-color: rgb(253, 129, 129);
+    border: solid 5px #0e0e0e;
+    width: 18%;
+    padding-bottom: 10px;
+  
+}
+/* Adds some colour styling */
+.noun1-container p{
+    color: #0e0e0e;
+}
+.noun1-container h2{
+    color: #0e0e0e;
+    text-decoration: underline;
+}
+/* VERB CONTAINER */
+.verb-container{
+    background-color: #4d4d4d;
+    border: solid 5px #0e0e0e;
+    width: 18%;
+    padding-bottom: 10px;
+}
+/* Adds some colour styling */
+
+.verb-container p{
+    color: #f4f4f4;
+}
+.verb-container h2{
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+/* ADJECTIVE CONTAINER */
+.adjective-container{
+    background-color: #22e0ff;
+    border: solid 5px #0e0e0e;
+    width: 18%;
+    padding-bottom: 10px;
+}
+/* Adds some colour styling */
+
+.adjective-container p{
+    color: #0e0e0e;
+}
+.adjective-container h2{
+    color: #0e0e0e;
+    text-decoration: underline;
+}
+/* NOUN2 CONTAINER */
+.noun2-container{
+    background-color: #ff0d0d;
+    border: solid 5px #0e0e0e;
+    width: 18%;
+    padding-bottom: 10px;
+}
+/* Adds some colour styling */
+
+.noun2-container p{
+    color: #f4f4f4;
+}
+.noun2-container h2{
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+/* NOUN3 CONTAINER */
+.noun3-container{
+    background-color: rgb(129, 179, 255);
+    border: solid 5px #0e0e0e;
+    width: 18%;
+    padding-bottom: 10px;
+}
+/* Adds some colour styling */
+
+.noun3-container h2{
+    color: #0e0e0e;
+    text-decoration: underline;
+}
+/* Globally styles each of the buttons */
+.btn{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 15%;
+    background-color: #f4f4f4;
+    color: #0e0e0e;
+    border: solid 3px #0e0e0e;
+}
+/* Styles the output text from each of the created or generated stories */
+.textToSpeak, .generateStory, .reset{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Centers the .story class text content */
+.story{text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
